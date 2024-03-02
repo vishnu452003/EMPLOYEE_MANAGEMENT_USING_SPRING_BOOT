@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Details</title>
+</head>
+<body>
+    <h2>Employee Details</h2>
+    
+    <p>ID: <span th:text="${employee.id}"></span></p>
+    <p>Name: <span th:text="${employee.name}"></span></p>
+    <p>Position: <span th:text="${employee.position}"></span></p>
+    
+    <a th:href="@{'/employees/update/' + ${employee.id}}">Update</a>
+    <br>
+    <a th:href="@{'/employees/delete/' + ${employee.id}}">Delete</a>
+</body>
+</html>
