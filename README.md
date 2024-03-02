@@ -1,0 +1,1 @@
+Make sure these Thymeleaf templates are placed in the src/main/resources/templates directory of your Spring Boot project. Also, adapt the code according to your project structure and styling preferences.
